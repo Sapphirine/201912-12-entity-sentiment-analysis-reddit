@@ -1,12 +1,15 @@
 # RedditFeels: A Sentiment Analysis Tool for Reddit News
 
 **Project ID:** 201912-12
+
 **Team Members:** 
 - Timotius Kartawijaya (tak2151@columbia.edu)
 - Fernando Troeman (ft2515@columbia.edu)
 - Hritik Jain (hj2533@columbia.edu)
 
 ## Overview:
+This paper details our attempt to build a web application capable of processing and computing public sentiment towards companies or organizational entities. Such a product or service will be valuable in terms of informing investment decisions as well as evaluating brand recognition and loyalty. We have elected to work with data from the popular social media platform, Reddit, which houses a huge repository of user opinions and discussions on numerous wide-ranging topics and events. The resulting product is a web application that, given the name of a company specified by the user, extracts associated Reddit posts/comments and computes a sentiment score as well as other useful metrics to be output in the form of an analytics dashboard.
+
 
 ## URL:
 https://reddit-feels.herokuapp.com/
@@ -23,9 +26,10 @@ Backend/Database:
 - VADER
 - BigQuery
 
-## Folder Structure:
+## Folder and File Structure:
 - `static` and `templates` contain all code needed for the user interface.
-- `analysis` contain jupyter notebooks that are used for validation and analysis
+- `analysis` contain jupyter notebooks that are used for validation and analysis.
+- `app.py` is the entrypoint to the web app.
 - `Procfile` used for Heroku deployment. 
 
 ## How to use locally:
