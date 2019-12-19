@@ -8,7 +8,7 @@
 - Hritik Jain (hj2533@columbia.edu)
 
 ## Overview:
-This paper details our attempt to build a web application capable of processing and computing public sentiment towards companies or organizational entities. Such a product or service will be valuable in terms of informing investment decisions as well as evaluating brand recognition and loyalty. We have elected to work with data from the popular social media platform, Reddit, which houses a huge repository of user opinions and discussions on numerous wide-ranging topics and events. The resulting product is a web application that, given the name of a company specified by the user, extracts associated Reddit posts/comments and computes a sentiment score as well as other useful metrics to be output in the form of an analytics dashboard.
+Our web application is capable of processing and computing public sentiment towards companies or organizational entities. Such a product or service will be valuable in terms of informing investment decisions as well as evaluating brand recognition and loyalty. We have elected to work with data from the popular social media platform, Reddit, which houses a huge repository of user opinions and discussions on numerous wide-ranging topics and events. The resulting product is a web application that, given the name of a company specified by the user, extracts associated Reddit posts/comments and computes a sentiment score as well as other useful metrics to be output in the form of an analytics dashboard.
 
 
 ## URL:
