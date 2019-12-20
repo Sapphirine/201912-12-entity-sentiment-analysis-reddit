@@ -28,7 +28,7 @@ Backend/Database:
 
 ## Folder and File Structure:
 - `static` and `templates` contain all code needed for the user interface.
-- `analysis` contain jupyter notebooks that are used for validation and analysis.
+- `analysis` contain jupyter notebooks that are used for validation and analysis. Within the notebook contains the pre-trained SpaCy model and script to train said model, which determines whether a sentence is relevant to the entity.
 - `app.py` is the entrypoint to the web app.
 - `Procfile` used for Heroku deployment. 
 
